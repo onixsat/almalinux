@@ -1,6 +1,7 @@
 <div align="center">
   <a href="https://onixsat">
-    <img src="scripts/logo.png" alt="Logo" width="350">
+    [logo]: scripts/logo.png
+    <img src="[logo]" alt="Logo" width="350">
 </a>
 <a id="readme-top"></a>
 </div>
@@ -238,7 +239,6 @@ systemctl restart iptables
 
 [logo]: scripts/logo.png
 [link](https://www.example.com/my%20great%20page "lol")
-
 
 </details>
 
