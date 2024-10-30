@@ -237,13 +237,11 @@ systemctl restart iptables
 <a href="[link]">[link]</a>
 
 [logo]: scripts/logo.png
-
 [link](https://www.example.com/my%20great%20page "lol")
-
-<div align="right">( <a href="#readme-top">Voltar ao topo</a> )</div>
 </details>
 <div align="center" id="CONTATOS">
   <h2 style="font-style:italic;">&ensp;&thinsp;</h2>
-
+  <div align="right">( <a href="#readme-top">Voltar ao topo</a> )</div>
+  
 _MIT licensed | Copyright © 2011-2024  [@onixsat](https://onixsat.pt), smartapi@protonmail.com_
 </div>
