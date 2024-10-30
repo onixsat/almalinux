@@ -33,7 +33,7 @@
   bash btk.sh
  ```
 
-_Ao iniciar vai criar o ficheiro de configuração seguro em <a href="config/config.sh.enc">config/config.sh.enc</a>_
+<h6 style="font-style:italic;">Ao iniciar vai criar o ficheiro de configuração seguro em <a href="config/config.sh.enc">config/config.sh.enc</a></h6>
 
 </div>
 
