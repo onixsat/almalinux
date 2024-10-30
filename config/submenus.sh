@@ -90,8 +90,10 @@ trap ctrl_c INT
 function ctrl_c() {
     tput cnorm
     clear
-    return 1
-    #reload "return" "$GLOBAL_VAR"
+    #return 1
+
+
+    reload "return" "$GLOBAL_VAR"
 }
 
 clear
@@ -125,54 +127,9 @@ function show-menu {
 
 function sub-menu {
     if [[ "$1" == "menuCpanel" ]]; then
-        #echo "All is good ${1}"
-        while true; do
-                  show-menu
-                  read -rsn1 key
-                  case $key in
-                      "")
-                          clear
-                          if [[ $selected -eq $(( ${#menu[@]} - 1 )) ]]; then # Exit
-                              tput cnorm
-                              break
-                          else
-                              line=${menu[$selected]}
-                              # Main Code
-                              if [ "$line" == "Menu1" ]
-                                then
-                                  echo "Menu 1"
-                                  sleep 5
-                              elif [ "$line" == "Process Stats" ]
-                                  then
-                                  ps=$(ps -Ao comm,user,cputime,pcpu,pmem,sz,rss,vsz,nlwp,psr,pri,ni)
-                                  printf "%s\n" "${ps[@]}" | head -n 1
-                                  printf "%s\n" "${ps[@]}" | sort -r -nk4 | head -n 20
-                              elif [ "$line" == "Network Stats" ]
-                                  then
-                                  ss -t
-                              elif [ "$line" == "Disk Stats" ]
-                                  then
-                                  lsblk -e7
-                              fi
-                              read -p "Press Enter to continue..."
-                          fi
-                          clear
-                      ;;
-                      # up
-                      "A"|"a")
-                          if [[ $selected -gt 0 ]]; then
-                              selected=$((selected-1))
-                          fi
-                      ;;
-                      "B"|"b")
-                       # down
-                          if [[ $selected -lt $(( ${#menu[@]} - 1 )) ]]; then
-                              selected=$((selected+1))
-                          fi
-                      ;;
-                  esac
-              done
-        #sleep 5
+        echo "All is good ${1}"
+        return 0
+
     elif [[ "$1" == "menuApache" ]]; then
         while true; do
                           show-menu
@@ -298,7 +255,9 @@ if [[ $? -eq 0 ]]; then
     function ctrl_c() {
         tput cnorm
         clear
-        return 1
-        #reload "return" "$GLOBAL_VAR"
+        #return 1
+
+
+        reload "return" "$GLOBAL_VAR"
     }
 fi
