@@ -33,7 +33,17 @@
   bash btk.sh
  ```
 
-<h6 style="font-style:italic;">Ao iniciar vai criar o ficheiro de configuração seguro em <a href="config/config.sh.enc">config/config.sh.enc</a></h6>
+<h6 style="font-style:italic;">
+  Ao iniciar vai criar o ficheiro de configuração seguro em <a href="config/config.sh.enc">config/config.sh.enc</a>
+  <br>
+  Ao iniciar novamente digite a sua password para desencriptar o ficheiro seguro localmente e iniciar o programa.
+  <br>
+  _Nota: O arquivo descodificado será eliminado da maquina local quando desligar o terminal.
+  <br><br>
+  xxxxx
+
+
+</h6>
 
 </div>
 
