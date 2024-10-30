@@ -38,7 +38,9 @@
   <br>
   Ao iniciar novamente digite a sua password para desencriptar o ficheiro seguro localmente e iniciar o programa.
   <br>
+  
   _Nota: O arquivo descodificado será eliminado da maquina local quando desligar o terminal.
+  
   <br><br>
   xxxxx
 
