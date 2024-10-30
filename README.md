@@ -28,8 +28,8 @@
 
 ```bash
   sudo sudo
-  git clone https://github.com/onixsat/almalinux8.git
-  cd almalinux8
+  git clone https://github.com/onixsat/almalinux.git
+  cd almalinux
   bash btk.sh
  ```
 
