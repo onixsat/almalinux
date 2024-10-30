@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-<div align="center" id="readme-top">
-  <a href="https://onixsat">
-    <img src="scripts/logo.png" alt="logo" width="350">
-</a>
-=======
 <div align="center">
   <a href="https://onixsat">
     <img src="logo9.png" alt="reveal.js" width="350">
 </a>
 <a id="readme-top"></a>
->>>>>>> 09bd7de9a7174aa0a9bb1068f760fd83bb4ac1a4
 </div>
 <details>
   <summary>Menu de Nevegação</summary>
@@ -53,10 +46,7 @@
 <sub>[ [SSH](root) <span style='color:lightblue'>Username: *root*</span> ] Password: $\textcolor{cyan}{\textsf{Palmalinux}}$</sub>\
 <sup>[ [Encriptação](root) <span style='color:lightblue'>*Sistema*</span> ] Password: $\textcolor{cyan}{\textsf{12345}}$</sup>
 
-<<<<<<< HEAD
-=======
 <code></code>
->>>>>>> 09bd7de9a7174aa0a9bb1068f760fd83bb4ac1a4
 </details>
 
 <details id="CODIGOS">
