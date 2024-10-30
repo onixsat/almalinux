@@ -32,7 +32,7 @@
   cd almalinux
   bash btk.sh
  ```
-
+**Ao iniciar vai criar o ficheiro de configuração seguro em config/config.sh.enc **
 </div>
 
 <details id="PASSWORDS">
