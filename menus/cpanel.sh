@@ -8,9 +8,8 @@ createMenu "menuCpanel" "$ENV_VAR_MENU"
 addMenuItem "menuCpanel" "Sub Menu" showSubmenu
 
 function showSubmenu(){
-  clear
-	source config/submenus.sh
-	sub-menu "menuCpanel"
+  banner "Servidor" "Configuracão" "Iniciar"
+  echo ${domain}
   reload "return" "menuCpanel"
 	pause
 }

@@ -128,7 +128,8 @@ function show-menu {
 function sub-menu {
     if [[ "$1" == "menuCpanel" ]]; then
         echo "All is good ${1}"
-        return 0
+        tput cnorm
+        break
 
     elif [[ "$1" == "menuApache" ]]; then
         while true; do
