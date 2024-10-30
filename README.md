@@ -28,10 +28,12 @@
 
 ```bash
   sudo sudo
-  git clone https://github.com/onixsat/almalinux8.git
-  cd almalinux8
+  git clone https://github.com/onixsat/almalinux.git
+  cd almalinux
   bash btk.sh
  ```
+
+<h6 style="font-style:italic;">Ao iniciar vai criar o ficheiro de configuração seguro em <a href="config/config.sh.enc">config/config.sh.enc</a></h6>
 
 </div>
 
@@ -238,13 +240,10 @@ systemctl restart iptables
 
 [logo]: scripts/logo.png
 [link](https://www.example.com/my%20great%20page "lol")
-
-
 </details>
-
 <div align="center" id="CONTATOS">
+  <h2 style="font-style:italic;">&ensp;&thinsp;</h2>
   <div align="right">( <a href="#readme-top">Voltar ao topo</a> )</div>
-  <h2 style="font-style:italic;">&ensp;&thinsp; </h2>
-
+  
 _MIT licensed | Copyright © 2011-2024  [@onixsat](https://onixsat.pt), smartapi@protonmail.com_
 </div>
