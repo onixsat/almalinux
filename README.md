@@ -1,15 +1,7 @@
----
-title: New Issue
-labels: bug, enhancement
----
-<!--#
-NOUN=mother
-ATTRIBUTION=Mark Wahlberg
-$-->
 
----
 
-_kkk [MSON][oi]_
+# ALPS MSON Structure
+Describes an [MSON]["oi"] document in [MSON][].
 
 [MSON]: https://google.com
 
