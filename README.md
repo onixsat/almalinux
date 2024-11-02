@@ -7,9 +7,11 @@ NOUN=mother
 ATTRIBUTION=Mark Wahlberg
 $-->
 
-[MSON][oi]
+---
+
+_oi [MSON][oi]_
+
 [MSON]: https://google.com
-"Say hi to your {{ NOUN }} for me," {{ ATTRIBUTION }}
 
 <div align="center">
   <a href="https://onixsat">
