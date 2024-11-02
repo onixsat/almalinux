@@ -1,7 +1,7 @@
 
 
 # ALPS MSON Structure
-Describes an [MSON]["oi"] document in [MSON][].
+Describes an [MSON][oi] document in [MSON][].
 
 [MSON]: https://google.com
 
