@@ -1,10 +1,10 @@
 
 
 # ALPS MSON Structure
-Describes an [kkk][] document in [MSON][].
+Describes an [kkk] document in [MSON][].
 
 [MSON]: https://google.com
-[kkk](llllllll): https://google.com "pppp"
+[kkk](llllllll): https://google.com
 
 <div align="center">
   <a href="https://onixsat">
