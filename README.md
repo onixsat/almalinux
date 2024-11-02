@@ -1,8 +1,13 @@
+---
+title: New Issue
+labels: bug, enhancement
+---
+<!--#
+NOUN=mother
+ATTRIBUTION=Mark Wahlberg
+$-->
 
-his is my [random] located somewhere in my Markdown document.
-
-[random]: "variable value"
-
+"Say hi to your {{ NOUN }} for me," {{ ATTRIBUTION }}
 
 <div align="center">
   <a href="https://onixsat">
