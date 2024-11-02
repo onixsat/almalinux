@@ -1,7 +1,7 @@
 - [runDOC](https://github.com/schneems/rundoc) (I was not aware of this one when I named my project, honest!)
 
   [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4051b5&random=false&width=435&lines=Hey+!+kkkkkk+%E2%9C%8C%EF%B8%8F)](https://git.io/typing-svg)
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4051b5&random=false&width=435&lines=Hey+!+kkkkkk+%E2%9C%8C%EF%B8%8F)](scripts/info.svg)
+  [![Typing SVG](scripts/info.svg)](scripts/info.svg)
 
   <!-- page markdown -->
 .../changie/blob/{{ config.extra.current_version }}/...
