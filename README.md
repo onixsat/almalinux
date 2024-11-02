@@ -4,7 +4,7 @@
 Describes an [kkk][] document in [MSON][].
 
 [MSON]: https://google.com
-[kkk]: https://google.com "pppp"
+[kkk](llllllll): https://google.com "pppp"
 
 <div align="center">
   <a href="https://onixsat">
