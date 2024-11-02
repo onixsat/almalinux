@@ -33,7 +33,7 @@
   bash btk.sh
  ```
 
-<h6 style="font-style:italic;">
+<sm style="font-style:italic;">
   Ao iniciar vai criar o ficheiro de configuração seguro em <a href="config/config.sh.enc">config/config.sh.enc</a>
   <br>
   Ao iniciar novamente digite a sua password para desencriptar o ficheiro seguro localmente e iniciar o programa.
@@ -41,28 +41,17 @@
   
   _Nota: O arquivo descodificado será eliminado da maquina local quando desligar o terminal._
 
-  <sm style="font-style:italic;">kkkk</sm>
-  
-  <br><br>
-  xxxxx
-
-
-</h6>
+</sm>
 
 </div>
 
 <details id="PASSWORDS">
-  <summary>📫 Default Passwords</summary>
+  <summary><h4 style="font-style:italic;">📫 Default Passwords</h4></summary>
 
-<sub>[ [SSH](root) ] Username: $\textcolor{green}{\textsf{root}}\$  Password: $\textcolor{cyan}{\textsf{Palmalinux}}$</sub>
+*Passwords padrão na configuração do sistema.*
 
-<sup>[ [Encriptação](root) ] $\textcolor{green}{\textsf{Sistema}}\$ Password: $\textcolor{cyan}{\textsf{12345}}$</sup>
-
-
-<sub>[ [SSH](root) <span style='color:lightblue'>Username: *root*</span> ] Password: $\textcolor{cyan}{\textsf{Palmalinux}}$</sub>\
-<sup>[ [Encriptação](root) <span style='color:lightblue'>*Sistema*</span> ] Password: $\textcolor{cyan}{\textsf{12345}}$</sup>
-
-<code></code>
+<sub>[ [SSH](root) Username: $\textcolor{green}{\textsf{root}}\$ ]  $\textcolor{cyan}{\textsf{Palmalinux}}$</sub>\
+<sup>[ [Encriptação](root) $\textcolor{green}{\textsf{Sistema}}\$ ] $\textcolor{cyan}{\textsf{12345}}$</sup>
 </details>
 
 <details id="CODIGOS">

@@ -90,10 +90,8 @@ trap ctrl_c INT
 function ctrl_c() {
     tput cnorm
     clear
-    #return 1
-
-
-    reload "return" "$GLOBAL_VAR"
+    return 1
+    #reload "return" "$GLOBAL_VAR"
 }
 
 clear
@@ -128,8 +126,6 @@ function show-menu {
 function sub-menu {
     if [[ "$1" == "menuCpanel" ]]; then
         echo "All is good ${1}"
-        tput cnorm
-        break
 
     elif [[ "$1" == "menuApache" ]]; then
         while true; do
@@ -150,30 +146,39 @@ function sub-menu {
                                           titulo "Atualizando o sistema..."
 
 
-                                          declare -A myArray
-                                            myArray[A]="yum update -y"
-                                            myArray[B]="yum upgrade -y"
+                                          function app0(){
 
-                                          dados=$(jstrings ' && ' "${myArray[@]}")
-                                          #echo $dados >> dados.txt
-                                          esperar "$dados" "${WHITE}Atualizando..." "Atualizado!"
+                                            declare -A myArray
+                                              myArray[A]="yum update -y"
+                                              myArray[B]="yum upgrade -y"
+
+                                            dados=$(jstrings ' && ' "${myArray[@]}")
+                                            #echo $dados >> update.txt
+                                            esperar "$dados" "${WHITE}Atualizando..." "Atualizado!"
+
+                                          }
+                                          #app0
 
                                           function app1(){
-                                          start_time2=$(date +%s%3N)
 
-                                           start_loading "Atualizando..."
-                                            sudo yum update -y >> b.txt
-                                            hostname >> b.txt
+                                            start=$(date +%s%3N)
+
+                                            start_loading "Atualizando..."
+                                            sudo yum update -y
                                             sudo yum upgrade -y > /dev/null 2>&1
-                                          stop_loading $?
+                                            stop_loading $?
 
-                                          end_time2=$(date +%s%3N)
-                                          duration_ms2=$((end_time2 - start_time2))
-                                          echo "Execution: $duration_ms2"
+                                            end=$(date +%s%3N)
+                                            echo "Tempo de execução: $(($end-$start)) segundos" > tempo.txt
+
+
                                         }
-                                          esperar "app1 >> c.txt" "${WHITE}Atualizando... " "Atualizado!" >> d.txt
-echo "ok"
-sleep 10
+                                          esperar app1 "${WHITE}Atualizando... " "Atualizado!"
+                                          var=$(cat tempo.txt)
+                                          clearLastLines 1
+                                          echo -e "$var\n"
+
+
                                       elif [ "$line" == "Password" ]
                                       then
                                           banner "Apache" "Configuracão" "Password"
@@ -198,13 +203,16 @@ sleep 10
                                             myArray[A]="systemctl stop NetworkManager"
                                             myArray[B]="disable NetworkManager"
                                           dados=$(jstrings ' && ' "${myArray[@]}")
+                                          #echo $dados >> cnf1.txt
                                           esperar "$dados" "${WHITE}Atualizando..." "NetworkManager stopped and disabled"
 
                                           declare -A myArray
                                             NOW=$(date +"%m_%d_%Y-%H_%M_%S")
                                             myArray[A]="cp /etc/selinux/config /etc/selinux/config.bckup.$NOW"
                                             myArray[B]="sed -i -e 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config"
-                                          esperar "$dados" "${WHITE}Atualizando..." "Selinux isabled"
+                                            dados=$(jstrings ' && ' "${myArray[@]}")
+                                           #echo $dados >> cnf2.txt
+                                          esperar "$dados" "${WHITE}Atualizando..." "Selinux Disabled"
 
                                           titulo "Enabling / Updating initial quotas! A reboot in the end will be required."
                                           esperar "yes | /scripts/initquotas" "${WHITE}Habilitando" "Server quotas are enabled"
@@ -256,9 +264,7 @@ if [[ $? -eq 0 ]]; then
     function ctrl_c() {
         tput cnorm
         clear
-        #return 1
-
-
-        reload "return" "$GLOBAL_VAR"
+        return 1
+        #reload "return" "$GLOBAL_VAR"
     }
 fi
