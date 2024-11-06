@@ -9,7 +9,7 @@
 
 # ALPS MSON Structure
 
-Describes an [kkk][lol] document in [MSON][].
+Describes an [kkk][] document in [MSON][].
 
 [MSON]: https://google.com
 [kkk]: https://google.com
