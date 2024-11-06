@@ -51,7 +51,7 @@
 
 *Passwords padrão na configuração do sistema.*
 
-<sub>[ [SSH](root) Username: $\textcolor{green}{\textsf{root}}\$ ]  $\textcolor{cyan}{\textsf{Palmalinux}}$</sub>\
+<sub>[ [SSH](root) Username: $\textcolor{green}{\textsf{root}}\$ ]  $\textcolor{cyan}{\textsf{Password+2024}}$</sub>\
 <sup>[ [Encriptação](root) $\textcolor{green}{\textsf{Sistema}}\$ ] $\textcolor{cyan}{\textsf{12345}}$</sup>
 </details>
 
