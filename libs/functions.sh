@@ -215,7 +215,7 @@ function configs(){
   titulo "Configurando o sistema..."
 
   titulo="Configuracão"
-  password="Password"
+  password="Palmalinux"
   sshport="2022"
   domain="encpro.pt"
   hostname="srv.encpro.pt"
