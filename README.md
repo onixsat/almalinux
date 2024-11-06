@@ -1,24 +1,9 @@
-- [runDOC](https://github.com/schneems/rundoc) (I was not aware of this one when I named my project, honest!)
-
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4051b5&random=false&width=435&lines=Hey+!+kkkkkk+%E2%9C%8C%EF%B8%8F)](https://git.io/typing-svg)
-  [![Typing SVG](scripts/info.svg)](scripts/info.svg)
-
-  <!-- page markdown -->
-.../changie/blob/{{ config.extra.current_version }}/...
-
-
-# ALPS MSON Structure
-
-Describes an [kkk][] document in [MSON][].
-
-[MSON]: https://google.com
-[kkk]: https://google.com
-
 <div align="center">
   <a href="https://onixsat">
-    <img src="scripts/logo.png" alt="Logo" width="350">
-</a>
-<a id="readme-top"></a>
+    <img src="scripts/logo.png" alt="Logo" width="300">
+  </a>
+  <img src="scripts/waves.svg" width="100%" height="100">
+  <a id="readme-top"></a>
 </div>
 <details>
   <summary>Menu de Nevegação</summary>
@@ -255,14 +240,19 @@ systemctl enable iptables
 systemctl restart iptables
 
 🚀🛠️📫
-<a href="[link]">[link]</a>
 
+
+<a href="[link]">[link]</a>
 [logo]: scripts/logo.png
 [link](https://www.example.com/my%20great%20page "lol")
+
+Document in [MSON][].
+[MSON]: https://google.com
+
 </details>
 <div align="center" id="CONTATOS">
   <h2 style="font-style:italic;">&ensp;&thinsp;</h2>
   <div align="right">( <a href="#readme-top">Voltar ao topo</a> )</div>
   
-_MIT licensed | Copyright © 2011-2024  [@onixsat](https://onixsat.pt), smartapi@protonmail.com_
+_MIT licensed | Copyright © 2000-2024  [@onixsat](https://onixsat.pt), smartapi@protonmail.com_
 </div>
