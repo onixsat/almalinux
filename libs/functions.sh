@@ -221,8 +221,8 @@ function configs(){
   hostname="srv.encpro.pt"
   ns1="ns1.encpro.pt"
   ns2="ns2.encpro.pt"
-  dns="135.125.183.142"
-  ip="141.95.110.219"
+  dns="108.181.199.15"
+  ip="108.181.199.15"
 
   password=$(whiptail --title "$titulo" --inputbox "[!] Qual a password?" 10 60 "$password" 3>&1 1>&2 2>&3)
   sshport=$(whiptail --title "$titulo" --inputbox "[!] Qual a porta ssh?" 10 60 "$sshport" 3>&1 1>&2 2>&3)
