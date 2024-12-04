@@ -28,7 +28,9 @@
 <h6 style="font-style:italic;">Executar os comandos para instalar o sistema.</h6>
 
 ```bash
-  sudo sudo
+  sudo su
+  sudo yum update -y
+  sudo yum install -y git nano wget
   git clone https://github.com/onixsat/almalinux.git
   cd almalinux
   bash btk.sh
