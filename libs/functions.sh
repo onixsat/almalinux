@@ -274,10 +274,10 @@ function encrypt(){
         # Optionally, overwrite multiple times for extra security
 
         # Remove the file
-        rm -f "$FILE"
+ #       rm -f "$FILE"
 
         if [ $? -eq 0 ]; then
-            echo "Original file securely deleted."
+  #          echo "Original file securely deleted."
         else
             echo "Failed to securely delete the original file."
             exit 1
